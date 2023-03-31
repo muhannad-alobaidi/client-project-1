@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 2.5em 8em  ;
+    box-sizing: border-box;
+    max-width: 1024px;
+
+    .inner{
+       display: grid;
+       gap: 30px;
+       align-items: flex-start;
+       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+       
+    }
+
+
+
+
+
+    .column{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .dontdo{
+        color: red !important;
+        p{
+            color: red !important;
+        }
+    }
+
+    p{
+        margin: 0;
+    }
+    h4{
+        font-size: 1.125rem;
+        margin: 0;
+    }
+
+    ol{
+        padding-left: 2em;
+        padding-top: 2em;
+        li{
+            margin-bottom: 1em;
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+    video{
+        width: 100%;
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        div{
+            font-size: 1rem;
+            line-height: 140%;
+            font-family: 'SkodaNext-light';          
+        }
+        span{
+            padding-right: 10px;
+            color: red;
+            font-family: 'SkodaNext-bold';
+        }
+    }
+
+ 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container{
+        padding: 2em 2.5em  ;
+
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        padding: 2em 2em !important;
+
+    }
+    
+}

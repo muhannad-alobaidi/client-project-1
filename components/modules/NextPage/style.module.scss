@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 5em 8em 5em 8em ;
+    box-sizing: border-box;
+    max-width: 1024px;
+
+    .inner{
+        height: fit-content;
+    }
+
+
+
+    .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p{
+        text-transform: uppercase;
+    }
+
+    .url{
+        margin-bottom: 15px;
+
+        a{
+            color: #0E3A2F;
+            text-decoration: none;
+            font-size: 1.75rem;
+        }
+    
+        span{
+            margin-left: 10px;
+            color: #0E3A2F;
+            font-size: 1.75rem;
+
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container{
+        padding: 4em 2.5em  ;
+
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        padding: 4em 2em   !important;
+
+    }
+    
+}

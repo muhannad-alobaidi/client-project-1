@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SkodaNext-light';
+    src:  url('../public/fonts/SKODANext-Light.woff') format('woff2'),
+        url('../public/fonts/SKODANext-Light.woff2') format('woff');
+}
+@font-face {
+    font-family: 'SkodaNext-regular';
+    src:  url('../public/fonts/SKODANext-Regular.woff') format('woff2'),
+        url('../public/fonts/SKODANext-Regular.woff2') format('woff');
+}
+@font-face {
+    font-family: 'SkodaNext-bold';
+    src:  url('../public/fonts/SKODANext-Bold.woff') format('woff2'),
+        url('../public/fonts/SKODANext-Bold.woff2') format('woff');
+}

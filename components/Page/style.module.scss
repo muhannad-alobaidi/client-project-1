@@ -1,0 +1,18 @@
+.page {
+  min-height: 100%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+
+  .children {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .page{
+    flex-direction: column ;
+  }
+  
+}
